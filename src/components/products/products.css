@@ -27,7 +27,7 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 30px;
-    color: #1e293b;
+    color: var(--color-head-text);
 }
 
 .products__tyres-content {

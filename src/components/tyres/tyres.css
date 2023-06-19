@@ -25,7 +25,7 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
-    color: #1e293b;
+    color: var(--color-head-text);
 }
 
 .tyres__detail p {

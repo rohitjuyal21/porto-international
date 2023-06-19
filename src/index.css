@@ -12,5 +12,6 @@ body {
 
 :root {  
   --color-heading:  #ee7202;
-  --color-para: #67768e;
+  --color-text: #67768e;
+  --color-head-text : #202124
 }

@@ -80,7 +80,7 @@
 .header__navbar-menu_container > .menu-list li {
     list-style: none;
     line-height: 70px;
-    font-size: 18px;
+    font-size: 16px;
     border-bottom: 1px solid #eaeaea;
     background-color: #fff;
 }
@@ -91,14 +91,14 @@
 
 .header__navbar-menu_container > .menu-list li > a {
     text-decoration: none;
-    color: #000;
+    color: #1e293b;
     display: flex;
     padding-left: 15px;
 }
 
 .header__navbar-menu_container > .menu-list li > a:hover,
-.header__navbar-menu_container > .menu-list li > a:active {
-    color: #1d0097
+.header__navbar-menu_container > .menu-list li > a:focus {
+    color: #060097
 }
 
 .header__below {
