@@ -1,0 +1,32 @@
+.wapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.wapp a {
+    background-color: #25d366;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.06), 0 2px 32px 0 rgba(0,0,0,.16);
+}
+
+.wapp span {
+    font-size: 18px;
+    color: #303030;
+    font-weight: 500;
+}
+
+.wapp .fa-whatsapp {
+    color: #fff;
+    font-size: 24px;
+}

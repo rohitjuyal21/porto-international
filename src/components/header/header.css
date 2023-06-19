@@ -1,0 +1,143 @@
+.main__header {
+    background-color: rgb(237 115 0 / 19%);
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    
+}
+
+.header__up {
+    border-bottom: 1px solid #ee7201;
+}
+
+.header__navbar {
+    max-width: 1240px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 110px;
+    line-height: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar-left > a  {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__navbar-logo img {
+    height: 44px;
+}
+
+.header__navbar-right > ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__navbar-right li {
+    font-size: 18px;
+    transition: all .2s linear;
+
+}
+
+.header__navbar-right li:hover {
+    scale: 1.25;
+}
+
+.header__navbar-right li > a{
+    text-decoration: none;
+    color: rgba(242,245,247,0.76);
+}
+
+.header__navbar-right li > a:hover {
+    color: #fff;
+}
+
+.header__navbar-menu {
+    display: none;
+    align-items: center;
+}
+
+.header__navbar-menu svg {
+    cursor: pointer;
+    color: #fff;
+}
+
+.header__navbar-menu_container {
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    left: 0;  
+}
+
+.header__navbar-menu_container > .menu-list li {
+    list-style: none;
+    line-height: 70px;
+    font-size: 18px;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fff;
+}
+
+.header__navbar-menu_container > .menu-list li:last-child {
+    border-bottom: none;
+}
+
+.header__navbar-menu_container > .menu-list li > a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    padding-left: 15px;
+}
+
+.header__navbar-menu_container > .menu-list li > a:hover,
+.header__navbar-menu_container > .menu-list li > a:active {
+    color: #1d0097
+}
+
+.header__below {
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 20px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.header__below > .language {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width: 920px) {
+    .header__navbar-right {
+        display: none;
+    }
+
+    .header__navbar-menu {
+        display: flex;
+    }
+
+    .header__navbar {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__navbar {
+        height: 80px;
+    }
+
+    .header__navbar-menu_container {
+        top: 140px;
+    }
+}

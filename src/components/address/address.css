@@ -1,0 +1,83 @@
+.address {
+    background: #000;
+    padding: 30px;
+}
+
+.address__container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.address__container h3 {
+    color: #ee7202;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.address__container-left > .main-text {
+    padding-top: 24px;
+}
+
+.ac-left-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.ac-left-icon .fa-whatsapp {
+    font-size: 30px;
+    color: #00f500;
+    margin-right: 10px;
+}
+
+.address__container-left {
+    flex: 1;
+}
+
+.address__container-right {
+    flex: 1;
+    padding-left: 55px;
+}
+
+.ac-right-links {
+    padding-top: 24px;
+}
+
+.ac-right-links .menu-list {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ac-right-links .menu-list a {
+    color: #67768e;
+    font-size: 18px;
+    text-decoration: underline #67768e;
+}
+
+@media screen and (max-width: 920px) {
+    .address {
+        padding: 10px;
+    }
+
+    .address__container {
+        flex-direction: column;
+    }
+
+    .address__container h3 {
+        font-size: 20px;
+    }
+    
+    .ac-right-links .menu-list a {
+        font-size: 16px;
+    }
+
+    .ac-right-links .menu-list {
+        gap: 30px;
+    }
+}

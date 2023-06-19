@@ -1,0 +1,14 @@
+.footer {
+    padding: 20px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

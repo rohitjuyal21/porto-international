@@ -1,0 +1,50 @@
+.brands {
+    background-color: #f2f5f7;
+}
+
+.brands__container {
+    padding: 100px 80px;
+}
+
+.brands__content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.brands__content-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.logo__container {
+    max-width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logo__container img {
+    width: 100%;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: #000 !important;
+}
+
+@media screen and (max-width: 920px) {
+    .brands__container {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo__container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .brands__container {
+        padding: 50px 30px;
+    }
+}
