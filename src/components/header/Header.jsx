@@ -37,9 +37,12 @@ const Header = () => {
                 </div>
                 <div className='header__below'>
                     <div className="language">
-                        <p><a href="">
-                            <img src={portugese} alt="portugese" /></a></p>
-                        <p><a href=""><img src={english} alt="english" /></a></p>
+                        <p>
+                            <a href=""><img src={portugese} alt="portugese" /></a>
+                        </p>
+                        <p>
+                            <a href=""><img src={english} alt="english" /></a>
+                        </p>
                     </div>
                 </div>
             </div>

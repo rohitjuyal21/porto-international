@@ -3,7 +3,7 @@ import { AboutUs, Address, Brands, Contact, Footer, Header,Products, Services, S
 
 function App() {
   return (
-    <div className="app" id='app'>
+    <div className="app">
       <Header />
       <Slider />
       <Products />

@@ -49,6 +49,11 @@
     font-size: 18px;
     font-weight: 600;
     padding: 10px 15px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #e6e6e6;
 }
 
 .text-field-error {
@@ -62,7 +67,7 @@
 
 @media screen and (max-width: 920px) {
     .form {
-        padding: 0 36px;
+        padding: 20px 36px;
     }
 
     .send-btn {
@@ -72,6 +77,6 @@
 
 @media screen and (max-width: 750px) {
     .form {
-        padding: 0 20px;
+        padding: 20px;
     }
 }
