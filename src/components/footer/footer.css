@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 921px) {
     .footer {
         padding-right: 0;
         padding-left: 0;

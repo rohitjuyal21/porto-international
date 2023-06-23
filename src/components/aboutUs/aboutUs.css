@@ -65,7 +65,7 @@
     color: #c10fff;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 921px) {
     .about {
         padding: 10px;
     }
@@ -75,7 +75,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .about__container-content {
         flex-direction: column;
         text-align: center;

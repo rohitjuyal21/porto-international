@@ -5,7 +5,7 @@ const Tyres = ({ image, title, description, logo }) => {
   return (
     <div className='tyres'>
       <a href="" className='tyres__product-image_container'>
-        <img className='tyres__product-image' src={image} alt="product image" />
+        <img className='tyres__product-image' src={image} alt="product" />
       </a>
       <div className="tyres__detail">
         <h4>{title}</h4>

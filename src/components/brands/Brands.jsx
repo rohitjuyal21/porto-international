@@ -48,35 +48,29 @@ const Brands = () => {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 750,
+        breakpoint: 767,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         }
       }]
-
   };
 
   return (
-    <>
-      <hr />
-      <div className="brands">
-        <div className="brands__container">
-          <div className='brands__content'>
-            <h1 className='brands__content-heading main-heading'>Our Brands</h1>
-            <Slider {...settings}>
-              {brandItems.map((item, index) => (
-                <div className="logo__container" key={index}>
-                  <img src={item} alt="logo" />
-                </div>
-              ))}
-            </Slider>
-          </div>
+    <div className="brands">
+      <div className="brands__container">
+        <div className='brands__content'>
+          <h1 className='brands__content-heading main-heading'>Our Brands</h1>
+          <Slider {...settings}>
+            {brandItems.map((item, index) => (
+              <div className="logo__container" key={index}>
+                <img src={item} alt="logo" />
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
-      <hr />
-    </>
-
+    </div>
   )
 }
 

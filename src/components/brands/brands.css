@@ -31,13 +31,13 @@
     color: #000 !important;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 921px) {
     .brands__container {
         padding: 50px;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .logo__container {
         max-width: 100%;
     }

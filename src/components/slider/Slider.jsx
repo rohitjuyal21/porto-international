@@ -6,19 +6,15 @@ import './slider.css'
 
 const Slider = () => {
   return (
-    <>
-      <div className="slider">
-        <Carousel
-          className='carousel'
-          navButtonsAlwaysVisible={true}>
-          {sliderContent.map((item) =>
-            <Item item={item} key={item.id} />
-          )}
-        </Carousel>
-      </div>
-      <hr />
-    </>
-
+    <div className="slider">
+      <Carousel
+        className='carousel'
+        navButtonsAlwaysVisible={true}>
+        {sliderContent.map((item) =>
+          <Item item={item} key={item.id} />
+        )}
+      </Carousel>
+    </div>
   )
 }
 

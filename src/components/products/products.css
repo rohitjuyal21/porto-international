@@ -41,7 +41,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .products {
         padding-right: 0;
         padding-left: 0;

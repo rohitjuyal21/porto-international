@@ -1,4 +1,4 @@
-import { Button, Paper } from '@mui/material'
+import { Paper } from '@mui/material'
 import React from 'react'
 
 const Item = ({ item }) => {
@@ -8,9 +8,10 @@ const Item = ({ item }) => {
       <div className='item__content'>
         <h1>{item.title}</h1>
         <p>{item.description}</p>
-        <Button className="item__btn">
-          <a href={item.link}>More</a>
-        </Button>
+          <a href={item.link} className='item__link'>
+            <span>More</span>
+          </a>
+        
       </div>
 
     </Paper>

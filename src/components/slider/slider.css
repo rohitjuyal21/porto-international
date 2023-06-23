@@ -47,19 +47,19 @@
     filter: brightness(50%);
 }
 
-.item__btn {
-    height: 46px;
-    background-color: #ee7202 !important;
-    border-radius: 0 !important;
-    border: 1px solid #333 !important;
-    text-transform: capitalize !important;
+.item__link {
+    padding: 12px 24px;
+    background-color: #ee7202 ;
+    border-radius: 0 ;
+    border: 1px solid #333;
+    text-transform: capitalize ;
+    text-decoration: none
 }
 
-.item__btn a {
-    padding: 0 15px;
+.item__link > span {
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: #1e293b;
     font-weight: 600;
 }
 
@@ -69,16 +69,18 @@
     bottom: 10px;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 921px) {
+    .item__link > span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .item__content h1 {
         font-size: 30px;
     }
     
     .item__content p {
         font-size: 15px;
-    }
-
-    .item__btn {
-        height: 43px;
     }
 }

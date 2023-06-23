@@ -45,13 +45,8 @@
     margin-right: 100px;
 }
 
-.services__content-points_ontainer {
-    flex: 1;
-    width: 100%;
-}
 
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .services__content {
         padding: 0 20px;
     }

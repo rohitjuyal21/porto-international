@@ -6,10 +6,15 @@ function App() {
     <div className="app">
       <Header />
       <Slider />
+      <hr />
       <Products />
+      <hr />
       <Brands />
+      <hr />
       <Services />
+      <hr />
       <AboutUs />
+      <hr />
       <Contact />
       <Address />
       <Footer />
